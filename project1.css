@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Tic{
+    color: aquamarine;
+}
+body{
+    background-color:#325E6A;
+    text-align: center ;
+}
+.container{
+    height: 7ovh;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 6ovmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+
+}
+.Box{
+height: 18vmin;
+width: 18vmin;
+border-radius: 1rem;
+border: none;
+box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+font-size: 8vmin;
+color:#b0413e ;
+background-color:#ffffc7;
+
+
+}
+.reset-btn{
+    padding: 1rem; 
+    margin: 50px;
+    font-size:1.25rem ;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.new-btn{
+    padding: 1rem; 
+    margin: 50px;
+    font-size:1.25rem ;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: #ffffc7;
+    font-size:16vmin ;
+}
+.msg-container{
+    height: 120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+    display:none ;
+}
+.winner{
+    text-decoration: line-through;
+    text-decoration-color: #b0413e;
+    text-decoration-thickness: 4px;
+}
